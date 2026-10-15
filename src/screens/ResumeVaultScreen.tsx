@@ -92,7 +92,7 @@ export const ResumeVaultScreen: React.FC = () => {
         <View style={{ flex: 1 }}>
           <Text style={typography.h1}>Resume Vault</Text>
           <Text style={[typography.body, { marginTop: 2 }]}>
-            Manage targeted resume versions for AI PM roles
+            Manage targeted resume versions for your career tracks
           </Text>
         </View>
         <GlassButton
@@ -108,13 +108,13 @@ export const ResumeVaultScreen: React.FC = () => {
           <Text style={[typography.h3, { marginBottom: spacing.sm }]}>New Resume Version</Text>
           <GlassInput
             label="Version Name *"
-            placeholder="e.g. GenAI Focused Resume v2"
+            placeholder="e.g. Full-Stack SWE v2 / PM Sprint v1"
             value={versionName}
             onChangeText={setVersionName}
           />
           <GlassInput
             label="Target Roles (comma-separated)"
-            placeholder="e.g. AI Product Manager, GenAI PM"
+            placeholder="e.g. Software Engineer, Product Manager, Data Scientist"
             value={rolesInput}
             onChangeText={setRolesInput}
           />

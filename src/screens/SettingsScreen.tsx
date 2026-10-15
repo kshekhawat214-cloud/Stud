@@ -140,7 +140,7 @@ export const SettingsScreen: React.FC = () => {
       <GlassCard style={styles.card}>
         <Text style={typography.h3}>Data Backup & Portability</Text>
         <Text style={[typography.body, { marginTop: 2 }]}>
-          Export or restore your full AI PM operating system data in JSON format.
+          Export or restore your full Stud operating system data in JSON format.
         </Text>
         <View style={styles.btnRow}>
           <GlassButton title="Export Data (JSON) 📤" variant="primary" onPress={handleExport} />

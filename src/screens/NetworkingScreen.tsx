@@ -160,7 +160,7 @@ export const NetworkingScreen: React.FC = () => {
         <GlassCard style={styles.emptyCard}>
           <Text style={styles.emptyIcon}>🤝</Text>
           <Text style={styles.emptyTitle}>No contacts yet</Text>
-          <Text style={styles.emptyDesc}>Build your network to land your AI PM role.</Text>
+          <Text style={styles.emptyDesc}>Build your network to land your dream role.</Text>
           <GlassButton
             title="Add First Contact"
             variant="primary"
@@ -261,7 +261,7 @@ export const NetworkingScreen: React.FC = () => {
               <Text style={[typography.h2, { marginBottom: spacing.sm }]}>Add Contact</Text>
               <GlassInput label="Full Name *" placeholder="e.g. Priya Kumar" value={name} onChangeText={setName} />
               <GlassInput label="Company" placeholder="e.g. Google DeepMind" value={company} onChangeText={setCompany} />
-              <GlassInput label="Role / Title" placeholder="e.g. Senior AI PM" value={role} onChangeText={setRole} />
+              <GlassInput label="Role / Title" placeholder="e.g. Senior Engineer, Product Lead" value={role} onChangeText={setRole} />
               <GlassInput label="LinkedIn URL" placeholder="https://linkedin.com/in/..." value={linkedinUrl} onChangeText={setLinkedinUrl} autoCapitalize="none" />
               <GlassInput label="Notes" placeholder="How you met, mutual interests..." multiline numberOfLines={3} value={notes} onChangeText={setNotes} />
 

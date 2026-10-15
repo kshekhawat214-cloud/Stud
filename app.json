@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Stud",
-    "slug": "stud-ai-pm",
+    "slug": "stud",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

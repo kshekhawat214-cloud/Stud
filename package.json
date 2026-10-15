@@ -2,7 +2,7 @@
   "name": "stud",
   "main": "expo-router/entry",
   "version": "1.0.0",
-  "description": "Stud — AI PM Journey Tracker: Personal Career Operating System for aspiring AI Product Managers",
+  "description": "Stud — Universal Career Operating System & Learning Tracker for All Courses, Tech Roles, and Skills",
   "dependencies": {
     "@expo/vector-icons": "^14.0.0",
     "@react-native-async-storage/async-storage": "^1.23.1",

@@ -37,7 +37,7 @@ export const exportAllData = async (): Promise<string> => {
   const payload: StudBackupPayload = {
     version: '1.0.0',
     exported_at: new Date().toISOString(),
-    app: 'Stud AI PM Journey Tracker',
+    app: 'Stud Career Operating System',
     data: {
       phases,
       topics,

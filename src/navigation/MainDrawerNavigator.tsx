@@ -241,7 +241,7 @@ export const MainDrawerNavigator: React.FC = () => {
                 </Text>
               </View>
               <View style={{ flex: 1 }}>
-                <Text style={typography.h2}>{user?.name || 'AI PM Candidate'}</Text>
+                <Text style={typography.h2}>{user?.name || 'Stud Learner'}</Text>
                 <Text style={styles.profileModalEmail}>{user?.email || 'guest@stud.ai'}</Text>
               </View>
               <TouchableOpacity onPress={() => setProfileModalOpen(false)}>

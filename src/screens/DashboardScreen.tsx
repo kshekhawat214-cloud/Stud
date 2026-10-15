@@ -240,7 +240,7 @@ export const DashboardScreen: React.FC<DashboardScreenProps> = ({ onNavigate }) 
     : 0;
 
   const handleStartFocusTimer = () => {
-    startTimer(25 * 60, activePhase?.title ?? 'AI PM Deep Work Session');
+    startTimer(25 * 60, activePhase?.title ?? 'Deep Work Focus Session');
   };
 
   const isNarrow = isMobile || isTablet;
@@ -489,12 +489,12 @@ export const DashboardScreen: React.FC<DashboardScreenProps> = ({ onNavigate }) 
                     <Text style={styles.viewAllText}>Library →</Text>
                   </TouchableOpacity>
                 </View>
-                <Text style={styles.subSectionLabel}>Curated AI PM Learning</Text>
+                <Text style={styles.subSectionLabel}>Curated Course Learning</Text>
 
                 <View style={styles.learningList}>
                   {recentResources.length === 0 ? (
                     <TouchableOpacity style={styles.emptyResourceBox} onPress={() => onNavigate?.('Resources')}>
-                      <Text style={styles.emptyResourceText}>📚 Tap to browse & add AI PM Resources</Text>
+                      <Text style={styles.emptyResourceText}>📚 Tap to browse & add Course Resources</Text>
                     </TouchableOpacity>
                   ) : (
                     recentResources.map((res) => (
