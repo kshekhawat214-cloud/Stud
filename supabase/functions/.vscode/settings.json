@@ -1,0 +1,7 @@
+{
+  "deno.enable": true,
+  "deno.unstable": false,
+  "deno.importMap": "./import_map.json",
+  "typescript.validate.enable": false,
+  "javascript.validate.enable": false
+}
